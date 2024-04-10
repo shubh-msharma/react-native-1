@@ -1,20 +1,15 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+// import EComMain from './applications/ECom/EComMain';
+// import GoalAppMain from './applications/GoalApp/GoalAppMain';
+// import ToDoAppMain from './applications/ToDoApp/ToDoAppMain';
+// import FeedRecepiAppMain from './applications/FoodRecepiApp/FeedRecepiAppMain';
+// import AnimatedOnBoardingMain from './applications/AnimatedOmBoarding/AnimatedOnBoardingMain';
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+// export default function App() {
+//   return (
+//     // <GoalAppMain/>
+//     // <ToDoAppMain/>
+//     // <EComMain/>
+//     // <FeedRecepiAppMain />
+//     // <AnimatedOnBoardingMain />
+//   );
+// }

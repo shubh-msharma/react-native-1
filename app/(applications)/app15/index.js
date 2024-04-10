@@ -1,0 +1,17 @@
+import { Stack } from 'expo-router'
+import {View} from 'react-native'
+import AdvanceReactNativeMain from '../../../applications/AdvanceReactNative/AdvanceReactNativeMain'
+
+export default ()=>{
+    return (
+        <View style={{
+            width:"100%",
+            height:"100%"
+        }}>
+            <Stack.Screen options={{
+                headerShown:false
+            }}/>
+            <AdvanceReactNativeMain/>
+        </View>
+    )
+}
